@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eleventy": "eleventy --serve",
-    "sass": "sass ignore/scss/styles.scss static/css/styles.css --watch --source-map --style=compressed",
+    "sass": "sass ignore/scss/styles.scss static/css/styles.css --watch --source-map ",
     "start": "npm run eleventy & npm run sass"
   },
   "keywords": [],
