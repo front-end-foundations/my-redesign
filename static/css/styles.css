@@ -624,6 +624,10 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  margin: 1rem 0;
+}
+
 .content {
   border-radius: 4px;
   max-width: 980px;
@@ -745,9 +749,14 @@ nav .active a {
 }
 
 .content-video iframe {
-  background: #222;
-  height: 320px;
-  width: 100vw;
+  background: #222222;
+  height: 200px;
+  width: 100%;
+}
+@media (min-width: 480px) {
+  .content-video iframe {
+    height: 420px;
+  }
 }
 .content-video .btn-list {
   padding: 6px;
